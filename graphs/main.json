@@ -1,12 +1,25 @@
 {
-  "properties": {
-    "name": "main",
-    "environment": {
-      "type": "msgflo"
-    }
-  },
-  "processes": {},
-  "connections": [],
-  "inports": [],
-  "outports": []
+    "caseSensitive": false,
+    "properties": {
+        "name": "main",
+        "environment": {
+            "type": "msgflo"
+        }
+    },
+    "inports": {},
+    "outports": {},
+    "groups": [],
+    "processes": {
+        "msgflo-project/InvertBoolean_1yvbc": {
+            "component": "msgflo-project/InvertBoolean",
+            "metadata": {
+                "label": "InvertBoolean",
+                "x": 334,
+                "y": 100,
+                "width": 72,
+                "height": 72
+            }
+        }
+    },
+    "connections": []
 }
