@@ -7,7 +7,7 @@ services:
       - '127.0.0.1:3883:1883'
     entrypoint: /usr/local/sbin/mosquitto
   msgflo:
-    image: msgflo/msgflo-project
+    image: 0x1d/msgflo-project
     build: .
     container_name: msgflo-project
     environment:
