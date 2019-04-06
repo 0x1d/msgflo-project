@@ -4,14 +4,14 @@ services:
     image: ansi/mosquitto
     container_name: msgflo-project-mosquitto
     ports:
-      - '127.0.0.1:1883:1883'
+      - '127.0.0.1:3883:1883'
     entrypoint: /usr/local/sbin/mosquitto
   msgflo:
     image: msgflo/msgflo-project
     build: .
     container_name: msgflo-project
     environment:
-      MSGFLO_BROKER: 'mqtt://mqtt:1883'
+      MSGFLO_BROKER: 'mqtt://mqtt:3883'
     ports:
       - '0.0.0.0:3569:3569'
     links:
