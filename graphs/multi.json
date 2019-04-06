@@ -1,0 +1,27 @@
+{
+    "caseSensitive": false,
+    "properties": {
+        "name": "multi",
+        "description": "",
+        "icon": "cog",
+        "environment": {
+            "type": "all"
+        }
+    },
+    "inports": {},
+    "outports": {},
+    "groups": [],
+    "processes": {
+        "msgflo-project/baba_zg3tg": {
+            "component": "msgflo-project/baba",
+            "metadata": {
+                "label": "baba",
+                "x": 504,
+                "y": 360,
+                "width": 72,
+                "height": 72
+            }
+        }
+    },
+    "connections": []
+}
