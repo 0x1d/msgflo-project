@@ -12,12 +12,22 @@
     "outports": {},
     "groups": [],
     "processes": {
-        "msgflo-project/baba_zg3tg": {
-            "component": "msgflo-project/baba",
+        "msgflo-project/InvertBoolean_o1hux": {
+            "component": "msgflo-project/InvertBoolean",
             "metadata": {
-                "label": "baba",
-                "x": 504,
-                "y": 360,
+                "label": "InvertBoolean",
+                "x": 468,
+                "y": 396,
+                "width": 72,
+                "height": 72
+            }
+        },
+        "msgflo-project/InvertBoolean_gisml": {
+            "component": "msgflo-project/InvertBoolean",
+            "metadata": {
+                "label": "InvertBoolean",
+                "x": 324,
+                "y": 288,
                 "width": 72,
                 "height": 72
             }
